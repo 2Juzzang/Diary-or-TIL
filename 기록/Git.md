@@ -16,3 +16,11 @@
 
 
 > 팀원이 push :PR요청 확인 -> merge -> (작업중인 내용이 있다면 stash) ->master branch로 이동하여 pull -> 개인 branch로 이동 -> 개인 branch에 master merge -> stash apply
+
+# commit 없이 merge 하는 법
+1. git stash (임시 보관함에 저장)
+2. git checkout main (메인으로 넘어가서)
+3. git pull origin main (풀받고)
+4. git checkout hoon(작업 브랜치로 와서)
+5. git merge main (메인에서 받은 내용을 합쳐준다)
+6. git stash apply (보관함에서 가져온다)
