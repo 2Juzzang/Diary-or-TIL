@@ -24,3 +24,6 @@
 4. git checkout hoon(작업 브랜치로 와서)
 5. git merge main (메인에서 받은 내용을 합쳐준다)
 6. git stash apply (보관함에서 가져온다)
+
+# 디렉토리 화살표 표시 해결
+https://zzang9ha.tistory.com/346
