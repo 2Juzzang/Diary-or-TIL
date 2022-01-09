@@ -65,3 +65,29 @@ const someone = {
 };
 someone.whoAmI(); // king을 반환
 ```
+
+## bind(), call(), apply()
+```js
+let person1 = {
+  name: 'Jo',
+};
+
+let person2 = {
+  name: 'Kim',
+  study: function () {
+    console.log(this.name + '이/가 공부를 하고 있습니다.');
+  },
+};
+person2.study();
+person2.study.bind(person1); // 함수를 호출하지 않음
+person2.study.call(person1); // Jo이/가 공부를 하고 있습니다.
+person2.study.apply(person1); // Jo이/가 공부를 하고 있습니다.
+```
+call, apply, bind의 첫번째 매개변수는 this의 값을 정한다.
+call, apply는 함수를 호출하는 반면, bind는 함수를 호출하지 않는다.
+
+```js
+let student = person2.study.bind(person1);
+student(); // Jo이/가 공부를 하고 있습니다.
+```
+bind는 변수를 할당하여 호출하는 형태로 사용해야 함을 알 수 있다.
