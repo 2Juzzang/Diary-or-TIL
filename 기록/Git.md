@@ -38,3 +38,6 @@ https://zzang9ha.tistory.com/346
 
 + git reset --hard 를 사용하더라도 돌아갈 수 있다.
 + git reflog를 치면 모든 로그가 뜨고 돌아갈 시점으로 git reset --hard 로그코드 를 사용하면 돌아갈 수 있다.
+
+# ignore
+https://coding-groot.tistory.com/59
