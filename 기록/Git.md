@@ -41,3 +41,7 @@ https://zzang9ha.tistory.com/346
 
 # ignore
 https://coding-groot.tistory.com/59
+
+# 좋은 커밋 메세지를 위한 영어 사전
+
+https://blog.ull.im/engineering/2019/03/10/logs-on-git.html
